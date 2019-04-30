@@ -1,0 +1,252 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    background-size: cover;
+	 background-image: url("https://media.gettyimages.com/photos/filth-and-waste-littered-all-over-chhola-dussehra-ground-one-month-picture-id458282802");
+    line-height: 1.8;
+    color: #818181;
+  }
+  card{
+    display: inline-block;
+  }
+  h1{
+      font-style: italic;
+      font-size: 80px;
+      letter-spacing: -3px;
+      line-height: 1;
+      text-shadow:  #006400 3px 2px;
+      color: orange;
+      font-weight: 800;
+      margin-bottom: 30px;
+
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+height:550px;
+ 
+    color: black;
+    padding: 100px 322px;
+	background-repeat: no-repeat;
+    font-family: Montserrat, sans-serif;
+  }
+  .containerfluid {
+    padding: 60px 50px;
+  }
+  .bggrey {
+    background-color: #f6f6f6;
+  }
+  .logosmall {
+    color: #008000;
+    font-size: 50px;
+  }
+  .logo {
+    color: #008000;
+    font-size: 200px;
+	padding-top:100px;
+	padding-left:20px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carouselcontrol.right, .carouselcontrol.left {
+    background-image: none;
+    color: #008000;
+  }
+  .carouselindicators li {
+    border-color: #008000;
+  }
+  .carouselindicators li.active {
+    background-color: #008000;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #008000; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panelfooter .btn:hover {
+    border: 1px solid #008000;
+    background-color: #fff !important;
+    color: #008000;
+  }
+  .panelheading {
+    color: #fff !important;
+    background-color: #008000 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panelfooter {
+    background-color: white !important;
+  }
+  .panelfooter h3 {
+    font-size: 32px;
+  }
+  .panelfooter h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panelfooter .btn {
+    margin: 15px 0;
+    background-color: #008000;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #228B22;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li , .navbar .navbarbrand {
+    color: #fff !important;
+  }
+  .navbarnav li a:hover, .navbarnav li.active a {
+    color: #008000 !important;
+    background-color: #fff !important;
+  }
+  .navbardefault .navbartoggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #008000;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  .Post {
+    width: 250px;
+    padding: 16px;
+    text-align: center;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 16px 0;
+    color: #ccc;
+}
+  .effect7
+{
+  	position:relative;
+	padding:20px 10px;
+	padding-left:30px;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect7:before, .effect7:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect7:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+}
